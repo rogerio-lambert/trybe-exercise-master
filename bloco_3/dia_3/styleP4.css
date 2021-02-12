@@ -1,0 +1,40 @@
+div:hover{
+    border: 2px black solid;
+    transition:linear;
+}
+#primaria{
+    background-color: magenta;
+}
+#secundaria{
+    background-color: green;
+}
+#complementar{
+    background-color: yellow;
+    padding: 100px 10px;
+}
+#clara{
+    background-color: palegoldenrod;
+}
+#escura{
+    background-color: darkslategray;
+    color: white;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+.impar{
+    font-style: italic;
+}
+body{
+    background-color: tomato;
+}
+
+<!-- EXERCÍCIOS
+Estilize as divs para que, ao passar o cursor por cima das mesmas, elas
+     ganhem uma borda.
+Faça cada div ter uma cor própria.
+Estilize cada uma das tags <h3>.
+Faça a terceira div ser maior que as demais.
+Deixe as tags ímpares <h3> com o texto em itálico.
+
+   -->
