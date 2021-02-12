@@ -3,3 +3,6 @@ Bash
 Git
 HTML
 CSS
+Paciencia
+Determinação
+Javascript
