@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph" class="paragraphs">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph" class="paragraphs">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "brown";
+      paragraph.innerText = 'Clube da luta';
+      let paragraph2 = document.querySelector("#second-paragraph");
+      paragraph2.innerHTML = 'Rogério é o <strong>melhor</strong> programador do mundo!';
+      paragraph2.style.border = 'red solid';
+      paragraph2.style.textAlign = 'center';      
+      let allParagraphs = document.querySelectorAll(".paragraphs");
+      allParagraphs[1].style.color = 'purple'; 
+      let title = document.querySelectorAll('h2');
+      title[0].innerText = 'Minhas verdades pessoais';
+
+
+    </script>
+  </body>
+</html>
+
+<!-- E a prática?! Tá aqui!
+Adicione ao seu HTML uma classe com alguns estilos para os seus dois parágrafos.
+Recupere os seus parágrafos via código JavaScript , usando a função getElementsByClassName ;
+Altere algum estilo do primeiro deles.
+Recupere o subtítulo pela tag.
+Por fim, há uma função única que você pode usar para fazer todos esses acessos, a querySelector . -->
