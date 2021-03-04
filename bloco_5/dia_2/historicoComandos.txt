@@ -1,0 +1,1000 @@
+  182  cat nome.txt
+  183  grep P nome.txt | sort
+  184  cd ..
+  185  ls -l
+  186  cd /
+  187  ls -l
+  188  cd home/rogerio
+  189  cat end
+  190  cat countries.txt 
+  191  grep P countries.txt > PaisesP.txt
+  192  ls
+  193  ls-l
+  194  ls -l
+  195  chmod u-rw PaisesP.txt
+  196  ls -l
+  197  cat PaisesP.txt
+  198  chmod u+rw PaisesP.txt
+  199  ls -l
+  200  chmod a+rw PaisesP.txt
+  201  ls -l
+  202  who
+  203  chmod 000 PaisesP.txt
+  204  ls -l
+  205  chmod 770 PaisesP.txt
+  206  ls -l
+  207  cat PaisesP.txt
+  208  ps
+  209  sleep 3
+  210  sleep 10 &
+  211  ps
+  212  jobs
+  213  sleep 10 &
+  214  jobs
+  215  sleep 100 &
+  216  jobs
+  217  sleep 120
+  218  fg %2
+  219  jobs
+  220  kill %2
+  221  jobs
+  222  sleep 150
+  223  fg %1 &
+  224  jobs
+  225  ps
+  226  kill 6666
+  227  ps
+  228  kill %2
+  229  jobs
+  230  kill %1
+  231  ps
+  232  sleep 130 &
+  233  jobs
+  234  kill 6692
+  235  jobs
+  236  sleep 130 &
+  237  kill -9 6712
+  238  jobs
+  239  cd Documentos/Trybe
+  240  ls
+  241  mkdir unix_tests
+  242  cd unix_tests
+  243  cat > skills2.txt
+  244  cat skills2
+  245  ls
+  246  cat skills2.txt
+  247  cat >> skills2.txt
+  248  cat skills2.txt
+  249  cw -l skills2.txt 
+  250  wc -l skills2.txt 
+  251  head -3 skills2.txt | sort > top_skills.txt
+  252  ls
+  253  cat top_skills.txt 
+  254  cat >phrases2.txt
+  255  grep b phrases2.txt 
+  256  grep b r phrases2.txt 
+  257  grep br phrases2.txt 
+  258  grep b&r phrases2.txt 
+  259  grep 'b''r' phrases2.txt 
+  260  grep br phrases2.txt 
+  261  man grep]
+  262  man grep
+  263  grep r phrases2.txt 
+  264  grep r phrases2.txt| wc -l  
+  265  grep -iv r phrases2.txt| wc -l  
+  266  grep -iv br phrases2.txt| wc -l  
+  267  grep -iv 'b''r' phrases2.txt| wc -l  
+  268  cd /home/rogerio
+  269  ls
+  270  mv co
+  271  mv countries.txt Documentos/Trybe/unix_tests
+  272  mv PaisesP.txt Documentos/Trybe/unix_tests
+  273  ls
+  274  cd Documentos/Trybe/unix_tests
+  275  cat phrases2.txt countries.txt > bunch_of_things.txt
+  276  ls
+  277  sort bunch_of_things.txt > bunch_of_things.txt 
+  278  cat bunch_of_things.txt 
+  279  cat phrases2.txt countries.txt > bunch_of_things.txt
+  280  cat bunch_of_things.txt 
+  281  sort bunch_of_things.txt
+  282  sort bunch_of_things.txt > bunch_of_things.txt 
+  283  cat bunch_of_things.txt 
+  284  cat phrases2.txt countries.txt > bunch_of_things.txt
+  285  sort bunch_of_things.txt
+  286  sort bunch_of_things.txt > bunch_of_things2.txt 
+  287  cat bunch_of_things2.txt 
+  288  ls -l
+  289  chmod 666 bunch_of_things.txt
+  290  ls -l
+  291  chmod 111 bunch_of_things.txt
+  292  ls -l
+  293  grep -iv 'b|r' phrases2.txt| wc -l  
+  294  grep -i 'b|r' phrases2.txt| wc -l  
+  295  grep -i 'b|r'
+  296  grep -i 'b|r' phrases2.txt 
+  297  chmod 444 bunch_of_things.txt
+  298  ls -l
+  299  chmod 644 bunch_of_things.txt
+  300  ls -l
+  301  ps
+  302  sleep 3 &
+  303  ps
+  304  jobs
+  305  kill %1
+  306  jobs
+  307  sleep 30 &
+  308  jobs
+  309  kill %1
+  310  job
+  311  sleep 30
+  312  &
+  313  jobs
+  314  ps
+  315  sleep 30
+  316  ps
+  317  jobs
+  318  sleep 30
+  319  ps
+  320  jobs
+  321  bg %1 | &
+  322  bg %1 &
+  323  jobs
+  324  bg %1
+  325  jobs
+  326  sleep 300 &
+  327  ps
+  328  jobs
+  329  sleep 100
+  330  sleep 200
+  331  jobs
+  332  fg %1
+  333  bg %2
+  334  jobs
+  335  kill
+  336  jobs
+  337  kill %
+  338  jobs
+  339  ps
+  340  jobs
+  341  man kill
+  342  sleep 100
+  343  sleep 120 &
+  344  sleep 130 &
+  345  sleep 140 &
+  346  jobs
+  347  kill -1
+  348  jobs
+  349  kill %3
+  350  kill %4
+  351  kill %5
+  352  kill %6
+  353  kill %7
+  354  jobs
+  355  sudo apt -get install cmatrix
+  356  sudo apt-get install cmatrix
+  357  sudo apt-get install fortune
+  358  ls
+  359  touch fortune.txt
+  360  ls
+  361  fortune > fortune.txt 
+  362  cat fortune.txt 
+  363  wc -w fortune.txt 
+  364  sudo apt-get install sl]
+  365  sudo apt-get install sl
+  366  sl -F
+  367  sudo apt-get install cowsay
+  368  cowsay "E a gente vai ser feliz"
+  369  cowsay < fortune.txt 
+  370  factor 42
+  371  rev fortune.txt | cowsay 
+  372  telnet towel.blinkenlights.nl
+  373  cmatrix
+  374  yes "we can"
+  375  ps
+  376  jobs
+  377  ls
+  378  grep 'a|r' skills2.txt 
+  379  grep -i 'a|r' skills2.txt 
+  380  cat skills2.txt 
+  381  grep -i 'ahumildmildade|Cavaquinho' skills2.txt 
+  382  grep -iv 'ahumildmildade|Cavaquinho' skills2.txt 
+  383  grep -iv 'humildmildade|Cavaquinho' skills2.txt 
+  384  grep -iv 'humildade|Cavaquinho' skills2.txt 
+  385  egrep -w 'humildade|Cavaquinho' skills2.txt 
+  386  egrep -w 'b|r' skills2.txt 
+  387  egrep -w 'r' skills2.txt 
+  388  grep -iv r skills2.txt 
+  389  grep -i r skills2.txt 
+  390  grep -i a skills2.txt 
+  391  grep -i b|r skills2.txt 
+  392  grep -i 'b|r' skills2.txt 
+  393  grep -i 'b'|'r' skills2.txt 
+  394  grep -i 'b/|r' skills2.txt 
+  395  sudo apt-get install git-all
+  396  git config --global user.name "rogerio"
+  397  git config --global user.email rogerio.cl@gmail.com
+  398  git config --global core.editor "code --wait"
+  399  code .gitconfig
+  400  git --version
+  401  git config --list
+  402  ssh-keygen -t rsa -b 4096 -C "rogerio.cl@gmail.com"
+  403  ls
+  404  ssh-keygen -t rsa -b 4096 -C "rogerio.cl@gmail.com"
+  405  ls
+  406  rm A100iagit
+  407  rm A100iagit.pub
+  408  ls
+  409  ssh-keygen -t rsa -b 4096 -C "rogerio.cl@gmail.com"
+  410  eval "$(ssh-agent -s)"
+  411  ps
+  412  jobs
+  413  ls
+  414  ssh-add ~/.ssh/git_id
+  415  ls
+  416  ssh-add ~/git_id
+  417  rm end
+  418  rm SemBrazil.txt
+  419  ls
+  420  man xclip
+  421  sudo apt-get install xclip
+  422  cat git_id.pub
+  423  xclip -sel clip < ~/git_id.pub
+  424  mkdir trybe-exercises/exercises/2.1
+  425  mkdir trybe-exercises
+  426  cd trybe-exercises
+  427  mkdir exercises
+  428  cd exercises
+  429  mkdir 2.1
+  430  cd 2.1
+  431  cd..
+  432  cd ..
+  433  git init
+  434  git status
+  435  cd exercises/2.1
+  436  touch readme.md
+  437  ls
+  438  git add readme.md
+  439  git commit -m "Primeira versão do arquivo readme"
+  440  git status
+  441  git log
+  442  git branch
+  443  cd ..
+  444  git remate add trybe-remoto git@github.com:rogerio-lambert/trybe-exercise-master.git
+  445  git remote add trybe-remote git@github.com:rogerio-lambert/trybe-exercise-master.git
+  446  git remote -V
+  447  git remote -v
+  448  git push trybe-remote master
+  449  git status
+  450  touch Teste.txt
+  451  git status
+  452  git branch test-branch
+  453  git status
+  454  git branch
+  455  git log
+  456  ls
+  457  mkdir exercice2.2
+  458  cd exercice2.2
+  459  cd ..
+  460  cd trybe-exercises
+  461  git status
+  462  git branch
+  463  git remote add trybe-remote git@github.com:rogerio-lambert/trybe-exercise-master.gitcd ...
+  464  cd ..
+  465  cd exercice2.2
+  466  git clone git@github.com:rogerio-lambert/trybe-exercise-master.git
+  467  git status
+  468  ls
+  469  git clone git@github.com:rogerio-lambert/trybe-exercise-master.git
+  470  clear
+  471  git clone git@github.com:rogerio-lambert/trybe-exercise-master.git
+  472  cd ..
+  473  ls
+  474  cd exercice2.2
+  475  git clone git@github.com:rogerio-lambert/trybe-exercise-master.git
+  476  git clone git@github.com:rogerio-lambert/Teste_funcionalidades.git
+  477  ssh -T git@github.com
+  478  cd ..
+  479  cd..
+  480  cd ..
+  481  mkdir teste-exercicio-2-2
+  482  mkdir teste-trybe
+  483  ls
+  484  cd rogerio]
+  485  cd rogerio
+  486  cat git_id
+  487  cat git_id.pub 
+  488  git status
+  489  cd trybe-repository
+  490  cd trybe-exercises
+  491  git status
+  492  git comit -am "antes da segunda aula de git"
+  493  git commit -am "antes da segunda aula de git"
+  494  git status
+  495  git add *
+  496  git status
+  497  git commit
+  498  git commit -m ""
+  499  git commit -m "isso mesmo"
+  500  git push
+  501  git status
+  502  history | tail -50
+  503  git remote add trybe-remote git@github.com:rogerio-lambert/trybe-exercise-master.gitcd
+  504  git remote add origin git@github.com:rogerio-lambert/trybe-exercise-master.gitcd
+  505  git push origin
+  506  cd ..
+  507  ls
+  508  rm git_id
+  509  rm git_id.pub
+  510  ls
+  511  mkdir .ssh
+  512  ls -a
+  513  cd .ssh
+  514  ls
+  515  rm id_rsa
+  516  rm id_rsa.pub
+  517  ls
+  518  ssh-keygen -t rsa -b 4096 -C "rogerio.cl@gmail.com"
+  519  ls
+  520  cat id_rsa.pub
+  521  ssh -t
+  522  cd ..
+  523  ls
+  524  cd exercice2.2
+  525  git clone git@github.com:rogerio-lambert/trybe-exercise-master.git
+  526  ls
+  527  git branch
+  528  git status
+  529  ls
+  530  cd trybe-exercise-master
+  531  git status
+  532  ls
+  533  git branch
+  534  git version
+  535  cd ..
+  536  cd trybe-exercises
+  537  cd exercise2.1
+  538  ls
+  539  cd exercises/]
+  540  cd exercises/
+  541  cd 2.1/
+  542  git branch
+  543  checkout master
+  544  git checkout master
+  545  git checkout -u trybe-skills-changes
+  546  git checkout -b trybe-skills-changes
+  547  ls
+  548  cat > skills.txt
+  549  git add skills.txt 
+  550  git commit -m "adiciona arquivo skills"
+  551  git push -u origin trybe-skills-changes
+  552  git status
+  553  git branch
+  554  git push -u trybe-remote trybe-skills-changes
+  555  git log
+  556  ls
+  557  git checkout master
+  558  git checkout -b trybe-skills-updates
+  559  cat >> skills.txt
+  560  git status
+  561  git commit -am "acrescemos de novas skills"
+  562  git add .
+  563  git commit -m "acrescemos de novas skills"
+  564  git push -u trybe-skills-update
+  565  git push -u trybe-remote trybe-skills-update
+  566  git branch
+  567  git push -u trybe-remote trybe-skills-updates
+  568  ping google.com
+  569  ping github.com
+  570  tracert google.com
+  571  tracerout google.com
+  572  traceroute google.com
+  573  sudo apt-get install traceroute
+  574  traceroute google.com
+  575  traceroute github.com
+  576  curl version
+  577  curl testdomain.com
+  578  curl --head https://www.betrtrybe.com/
+  579  curl --head https://www.betrybe.com/
+  580  curl -O https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3.png
+  581  ls
+  582  curl -o trybe_logo.png https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3.png
+  583  ping google.com
+  584  traceroute google.com
+  585  cd Documentos
+  586  cd trybe-exercises
+  587  cd trybe-exercise
+  588  ls
+  589  cd Trybe
+  590  ls
+  591  git status
+  592  cd ..
+  593  ls
+  594  cd trybe-exercises
+  595  git status
+  596  git checkout master
+  597  git checkout -b exercises/3.1
+  598  mkdir bloco_3
+  599  cd bloco_3/
+  600  mkdir dia_1
+  601  cd dia_1/
+  602  code .
+  603  code .0
+  604  code .
+  605  touch aula_presencial.html
+  606  touch index.html
+  607  curl -o trybe_logo.png https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3.png
+  608  ls
+  609  git status
+  610  git add .
+  611  git comit
+  612  git comit -m "arquivo html da aula de conteudo"
+  613  git commit -m "arquivo html da aula de conteudo"
+  614  git push -u origin exercises/3.1
+  615  git branch
+  616  git push -u trybe-remote  exercises/3.1
+  617  clear
+  618  cd ..
+  619  cd portfolio/
+  620  git status
+  621  git commit -am "adiçao de resumo no index"
+  622  code .
+  623  history | tail -50
+  624  ls
+  625  mk aulas-trybe
+  626  mkdir aulas-trybe
+  627  cd aulas-trybe/
+  628  git clone git@github.com:tryber/sd-10a-live-lectures.git
+  629  ls
+  630  git status
+  631  cd sd-10a-live-lectures/
+  632  git
+  633  git status
+  634  ls
+  635  git pull
+  636  ls
+  637  git branch
+  638  git fetch
+  639  ls
+  640  git pull
+  641  git pull -help
+  642  cd ..
+  643  git clone git@github.com:tryber/sd-10a-live-lectures.gitlecture/3.1
+  644  cd ..
+  645  mkdir aula-trybe
+  646  cd aula-trybe
+  647  cd ..
+  648  cd aulas-trybe/
+  649  ls
+  650  cd sd-10a-live-lectures/
+  651  ls
+  652  git branch
+  653  git checkout lecture/3.1
+  654  git branch
+  655  git checkout lecture/3.1
+  656  ls
+  657  git pull
+  658  code index.html
+  659  cd ..
+  660  mkdir portfolio
+  661  cd portfolio/
+  662  git init
+  663  git branch
+  664  git status
+  665  git commit -m "lançamento do repositório de portfólio"
+  666  touch index.html
+  667  ls
+  668  git status
+  669  git commit -am "lançamento do primeiro arquivo vazio index.html"
+  670  git add .
+  671  git commit -m "lançamento do index.html vazio"
+  672  code index.html
+  673  cd trybe-exercises/
+  674  cd exercises/
+  675  ls
+  676  cd ..
+  677  ls
+  678  cd bloco_3/
+  679  ls
+  680  git status
+  681  git branch
+  682  git checkout master
+  683  git checkout exercises/3.1
+  684  git branch
+  685  git status
+  686  cd ..
+  687  git status
+  688  git checkout exercises/3.1
+  689  git push
+  690  git checkout master
+  691  git checkout -b exercises/3.2
+  692  mkdir dia_2
+  693  cd dia_2
+  694  git push -u exercises/3.2
+  695  git add .
+  696  git commit -m "lançamento da branch"
+  697  git push -u trybe-remote exercises/3.2
+  698  parte_I.html
+  699  touch parte_I.html
+  700  code parte_I.html
+  701  code .
+  702  git commit -am "resolução do desafio da primeira parte"
+  703  git add .
+  704  git commit -am "resolução do desafio da primeira parte"
+  705  touch part_II.html
+  706  code part_II.html
+  707  git add .
+  708  git commit -m "arquivos do desafio da parte II"
+  709  touch parte_III.html| code
+  710  code parte_III.html
+  711  git add .
+  712  git commit -m "adicionado arquivo html do desafio da parte III"
+  713  git push
+  714  cd ..
+  715  cd portfolio/
+  716  git status
+  717  git commit -am "Aprimoramento do conteudo do portifólio"
+  718  git push
+  719  git remote origin git@github.com:rogerio-lambert/portfolio.git 
+  720  git remote add origin git@github.com:rogerio-lambert/portfolio.git 
+  721  git push -u origin master
+  722  git
+  723  git remote add origin https://github.com/rogerio-lambert/rogerio.lambert.github.io
+  724  cd ..
+  725  cp portfolio/index.html index.html
+  726  ls
+  727  cd portfolio/
+  728  ls
+  729  rm index.html 
+  730  ls
+  731  cd ..
+  732  rmdir portfolio/
+  733  rmfir
+  734  rmdir
+  735  rmdir --help
+  736  rmdir -p portfolio/
+  737  rm -rf portfolio/
+  738  ls
+  739  mkdir portfolio
+  740  cd portfolio/
+  741  ls -a
+  742  git clone https://github.com/rogerio-lambert/rogerio-lambert.github.io
+  743  git clone git@github.com:rogerio-lambert/portfolio.github.io.git'
+  744  cp ../index.html index.html
+  745  ks
+  746  ls
+  747  mv index.html portfolio.github.io/index.html
+  748  ls
+  749  git commit -am "Lançamento de primeira versão do arquivo index"
+  750  git status
+  751  cd portfolio.github.io/
+  752  git status
+  753  git commit -am "Lançamento de primeira versão do arquivo index"
+  754  git add .
+  755  git commit -m "Lançamento de primeira versão do arquivo index"
+  756  git push
+  757  cd ..
+  758  ls
+  759  rm -rf portfolio/
+  760  ls
+  761  mkdir portfolio]
+  762  rmdir portfolio]
+  763  mkdir portfolio
+  764  cdp
+  765  cd portfolio/
+  766  git clone git@github.com:rogerio-lambert/rogerio-lambert.github.io.git
+  767  ls
+  768  cp ../index.html rogerio-lambert.github.io/index.html
+  769  cd rogerio-lambert.github.io/
+  770  ls
+  771  git add .
+  772  git commit -m "lançamento do primeira versão do index"
+  773  git push
+  774  cd trybe-exercises/
+  775  ls
+  776  exercises
+  777  cd exercises
+  778  ls
+  779  git branch
+  780  git checkout master
+  781  git pull
+  782  cd ..
+  783  ls
+  784  git branch
+  785  git pull
+  786  git merge
+  787  ls
+  788  cd exercises/
+  789  ls
+  790  cd ..
+  791  git fetch
+  792  git status
+  793  git branch
+  794  git pull
+  795  git pull trybe-remote master
+  796  ls
+  797  mv dia_2/ bloco_3/ 
+  798  ls
+  799  cd b
+  800  cd bloco_3/
+  801  ls
+  802  git commit -am "corrigindo organização de diretorios de exercicios do bloco 3"
+  803  git push
+  804  git push -u trybe-remote master
+  805  git checkout exercises/3.3
+  806  git checkout -b exercises/3.3
+  807  mkdir dia_3
+  808  cd dia_3
+  809  touch index.html
+  810  touch style.css
+  811  code .
+  812  git commit -am "resultado da do exercicio da primeira parte do conteúdo"
+  813  git add .
+  814  git commit -m "resultado da do exercicio da primeira parte do conteúdo"
+  815  git push -u trybe-remote exercises/3.3
+  816  mkdir part_II
+  817  cd part_II/
+  818  cd ..
+  819  touch parte_II.html
+  820  touch styleP2.css
+  821  git add .
+  822  git commit -m "exercicios da segunda parte do conteudo"
+  823  git push
+  824  touch index3.html
+  825  touch styleP3.css
+  826  touch index4.html
+  827  touch styleP4.css
+  828  git add .
+  829  git commit -m "exercicio da terceira parte"
+  830  git push
+  831  ls -l
+  832  cd trybe-exercises/
+  833  ls
+  834  git branch
+  835  git push
+  836  ls
+  837  cd bloco_3/
+  838  ls
+  839  code
+  840  touch index5.html
+  841  mv index5.html /dia_3/
+  842  mv index5.html /dia_3
+  843  ls
+  844  rm index5.html 
+  845  cd dia_3
+  846  ls
+  847  touch index5
+  848  rm index5
+  849  rm index5.html
+  850  ls
+  851  touch styleP5.css
+  852  touch index5.html
+  853  git pull
+  854  ls
+  855  git status
+  856  git commit -am "adição do ultimo exercicio do dia 3"
+  857  git add .
+  858  git commit -m "adição do ultimo exercicio do dia 3"
+  859  git push
+  860  git branch master
+  861  git branch
+  862  git checkout master
+  863  git checkout exerciser/3.3
+  864  git checkout exercises/3.3
+  865  git checkout -b exercises/3.4
+  866  cd ..
+  867  mkdir dia_4
+  868  cd dia_4
+  869  touch index.html
+  870  code .
+  871  touch style.css
+  872  touch exercise.html
+  873  git add .
+  874  git commit -m "exercicios do conteúdo do dia 4 bloco 3"
+  875  git add .
+  876  git commit -m " segunda atualização dos exercicios do conteúdo do dia 4 bloco 3"
+  877  git push -u trybe-remote exercises/3.4
+  878  ls
+  879  mkdir projetos-trybe
+  880  cd projetos-trybe/
+  881  mkdir HTML-CSS
+  882  cd HTML-CSS/
+  883  git clone git@github.com:tryber/sd-010-a-project-lessons-learned.git
+  884  ls
+  885  cd sd-010-a-project-lessons-learned/
+  886  ls
+  887  npm install
+  888  sudo apt install npm
+  889  git branch
+  890  git checkout -b rogerio.lambert-lessons-learned-project
+  891  touch index.html style.css
+  892  ls
+  893  git status
+  894  npm install
+  895  git status
+  896  git add .
+  897  git commit -u origin rogerio.lambert-lessons-learned-project
+  898  git commit -m "Lançamento dos arquivos vazios"
+  899  git push -u origin rogerio.lambert-lessons-learned-project
+  900  code .
+  901  ls
+  902  git commit -am "primeiro requisito cumprido"
+  903  git push
+  904  git commit -am "segundo requisito cumprido"
+  905  git push
+  906  git commit -am "terceiro e quarto requisito cumprido"
+  907  git push
+  908  git commit -am "quinto requisito cumprido"
+  909  git push
+  910  git commit -am "sexto e sétimo requisito cumprido"
+  911  git push
+  912  git commit -am "concluidos requisitos obrigatorios"
+  913  git push
+  914  git commit -am "correção de erros"
+  915  git push
+  916  git commit -am "correção de erro apontados pelo lint no css"
+  917  git push
+  918  git commit -am "correção de erro apontados pelo lint no css e correção de falha em dois requisitos de projeto"
+  919  git push
+  920  git commit -am "correção de erro no requisito 7, abertura de link externo"
+  921  git push
+  922  git commit -am "correção de erro no requisito 9,seção com menos de 300 caracteres"
+  923  git add .
+  924  git commit -am "correção de erro no requisito 9,seção com menos de 300 caracteres"
+  925  git push
+  926  git commit -am "correção de erro no requisito 9,seção com menos de 300 caracteres"
+  927  git push
+  928  git commit -am "adição de requisitos opicionais"
+  929  git push
+  930  git commit -am "adição de requisitos opicionais"
+  931  git push
+  932  cd ..
+  933  ls -l
+  934  cd hd
+  935  cd ls
+  936  ls
+  937  cd HD
+  938  ls
+  939  ls -l
+  940  ntfsfix help
+  941  sudo ntfsfix /dev/sdb1
+  942  cd projetos-trybe/
+  943  ls
+  944  cd HTML-CSS/
+  945  ls
+  946  cd sd-010-a-project-lessons-learned/
+  947  code .
+  948  git commit -am "correção de erros nos requisotos 9 11 e 15"
+  949  git push
+  950  git commit -am "correção de erros apontados pelo lint no css"
+  951  git push
+  952  cd ..
+  953  ls
+  954  cd trybe-exercises/
+  955  mkdir Bloco_4
+  956  ls
+  957  cd Bloco_4/
+  958  mkdir dia_1
+  959  cd dia_1
+  960  code .
+  961  git branch
+  962  git checkout -b exercises/4.1
+  963  git push -u trybe-remote exercises/4.1
+  964  git add .
+  965  git commit -am "Programas do exercicio do dia 1 bloco 4 "
+  966  git push;
+  967  cd trybe-exercises/
+  968  la
+  969  ls
+  970  l
+  971  cd Bloco_4/'
+  972  cd Bloco_4/
+  973  git status
+  974  git add .
+  975  git status
+  976  cd ..
+  977  cd bloco_3/'
+  978  cd b
+  979  cd bloco_3/
+  980  git add .
+  981  git status
+  982  git push
+  983  git commit -m 'atualizando arquivos do dia 2 bloco 3'
+  984  git push
+  985  cd  ..
+  986  cd Bloco_4/
+  987  git checkout -b exercises/4.2
+  988  mkdir dia_2
+  989  git add .
+  990  git commit -m 'começo do dia 4 bloco 4'
+  991  cd dia_2
+  992  touch script.js
+  993  git commit -m 'começo do dia 4 bloco 4'
+  994  l
+  995  git add .
+  996  git commit -m 'arquivo script vazio'
+  997  git push -u trybe-remote exercises/4.2
+  998  code .
+  999  pwd
+ 1000  git push
+ 1001  git commit -am "finalização dos exercicios da aula 4.2"
+ 1002  git push
+ 1003  git checkout -b exercises/4.3
+ 1004  cd..
+ 1005  mkdir dia_3
+ 1006  cd dia_3
+ 1007  code algoritmos.js
+ 1008  git push -u trybe-remote exercises/4.4
+ 1009  git commit -am "exercicios do dia 3 bloco 4"
+ 1010  git add .
+ 1011  git commit -m "exercicios do dia 3 bloco 4"
+ 1012  git push -u trybe-remote exercises/4.3
+ 1013  exit
+ 1014  cd trybe-exercises/
+ 1015  cd Bloco_4/
+ 1016  git checkout -b exercises/4.4
+ 1017  mkdir dia_4
+ 1018  git add .
+ 1019  git commit -m 'começo do dia 4 bloco 4'
+ 1020  cd dia_4
+ 1021  code scriptsDia4.js
+ 1022  git add .
+ 1023  git commit -m 'scripts dos exercicios do dia 4 bloco 4 completos'
+ 1024  push -u trybe-remote exercises/4.4
+ 1025  git push -u trybe-remote exercises/4.4
+ 1026  cd projetos-trybe/
+ 1027  l
+ 1028  cd HTML-CSS/
+ 1029  cd sd-010-a-project-lessons-learned/
+ 1030  code .
+ 1031  git add .
+ 1032  git commit -m "melhorias na aparencia do trabalho"
+ 1033  git push
+ 1034  cd portfolio/
+ 1035  git status
+ 1036  ls
+ 1037  cd rogerio-lambert.github.io/
+ 1038  git status
+ 1039  git add .
+ 1040  cd HTML-CSS/
+ 1041  git add .
+ 1042  git commit -m 'inclusão de pagina do trabalho pratico 1'
+ 1043  git push
+ 1044  git branch
+ 1045  git checkout -b bloco4
+ 1046  git push -u origin bloco4
+ 1047  cd ..
+ 1048  cd projetos-trybe/
+ 1049  cd HTML-CSS/
+ 1050  git push
+ 1051  ls
+ 1052  cd sd-010-a-project-lessons-learned/
+ 1053  git commit -am "correção de falhas apontadas pelo lint e o avaliador"
+ 1054  git push
+ 1055  git commit -am "inclusão do link para visualizar no git pages"
+ 1056  git push
+ 1057  history | tail -50
+ 1058  history | tail -150
+ 1059  cd trybe-exercises/
+ 1060  l
+ 1061  mkdir bloco_5
+ 1062  cd bloco_5
+ 1063  mkdir dia_1
+ 1064  cd dia_a
+ 1065  cd dia_1
+ 1066  git checkout -b exercises/5.1
+ 1067  code .
+ 1068  git add .
+ 1069  it commit -m "exercicios do bloco 5 dia 1"
+ 1070  git commit -m "exercicios do bloco 5 dia 1"
+ 1071  git push -u trybe-remote exercises/5.1
+ 1072  cd ..
+ 1073  mkdir MorseCode
+ 1074  cd MorseCode/
+ 1075  code morseCode.js
+ 1076  cd trybe-exercises/
+ 1077  l
+ 1078  cd MorseCode/
+ 1079  git add .
+ 1080  git commit -m "resoluç"
+ 1081  cd l
+ 1082  l
+ 1083  cd projetos-trybe/
+ 1084  l
+ 1085  mkdir bloco_4
+ 1086  cd bloco_4/
+ 1087  git clone git@github.com:tryber/sd-010-a-project-playground-functions.git
+ 1088  l
+ 1089  cd sd-010-a-project-playground-functions/
+ 1090  ls
+ 1091  cd src/
+ 1092  l
+ 1093  git add .
+ 1094  git status
+ 1095  git branch
+ 1096  git checkout -b rogerio-lambert-project-playground-functions
+ 1097  git add .
+ 1098  cd ..
+ 1099  git add
+ 1100  git add .
+ 1101  npm install
+ 1102  git status
+ 1103  git commit -am "Rogerio Lambert"
+ 1104  git push -u origin rogerio-lambert-project-playground-functions
+ 1105  git log
+ 1106  l
+ 1107  git push -u origin rogerio-lambert-project-playground-functions
+ 1108  git push -u origin rogerio.lambert-project-playground-functions
+ 1109  git push -u origin rogerio-lambert-project-playground-functions
+ 1110  cd src/
+ 1111  code .
+ 1112  git commit -am "Desafio até o 3 pronto"
+ 1113  git push -u origin rogerio-lambert-project-playground-functions
+ 1114  git commit -am "Desafio até o 9 pronto"
+ 1115  git push
+ 1116  git commit -am "Correção no desafio 3 e em problemas apontados pelo lint"
+ 1117  git push
+ 1118  git commit -am "Resolvendo desafio 10"
+ 1119  git push
+ 1120  git commit -am "Resolvendo desafio 11 e 12"
+ 1121  git push
+ 1122  git commit -am "correção no desafio 11"
+ 1123  git push
+ 1124  git commit -am "correção no desafio 10 e implementação do desafio 13"
+ 1125  git push
+ 1126  git commit -am "correção no desafio 13"
+ 1127  git push
+ 1128  git commit -am "correção no desafio 10"
+ 1129  git push
+ 1130  git commit -am "correção no desafio 10 e 13"
+ 1131  git push
+ 1132  cd projetos-trybe/
+ 1133  cd bloco_4/
+ 1134  cd sd-010-a-project-playground-functions/
+ 1135  code .
+ 1136  cd src/
+ 1137  code .
+ 1138  git commit -am "correção no desafio 10"
+ 1139  git push
+ 1140  git commit -am "refatorando problemas no lint"
+ 1141  git push
+ 1142  git commit -am "refatorando problemas no lint"
+ 1143  git push
+ 1144  git commit -am "refatorando problemas apontados pelo lint"
+ 1145  git push
+ 1146  git commit -am "refatorando problemas apontados pelo lint"
+ 1147  git push
+ 1148  git commit -am "tentativa de solução para o desafio 10"
+ 1149  git push
+ 1150  cls
+ 1151  clear
+ 1152  git commit -am "solução da complexidade da função de contagem de números iguais de array"
+ 1153  git push
+ 1154  cd projetos-trybe/
+ 1155  cd bloco_4/
+ 1156  cd sd-010-a-project-playground-functions/
+ 1157  cd src/
+ 1158  code .
+ 1159  git commit -am "resolução dos últimos problemas nas funções e na formatação"
+ 1160  git push
+ 1161  git commit -am 'Correção dos últimos erros'
+ 1162  git push
+ 1163  git commit -am 'Correção dos últimos erros'
+ 1164  git push
+ 1165  cd ..
+ 1166  cd trybe-exercises/
+ 1167  l
+ 1168  cd bloco_5
+ 1169  l
+ 1170  mkdir dia_2
+ 1171  l
+ 1172  cd dia_2
+ 1173  code .
+ 1174  cd trybe-exercises/
+ 1175  cd bloco_5
+ 1176  l
+ 1177  cd dia_2
+ 1178  ls
+ 1179  code .
+ 1180  touch historicoComandos.txt
+ 1181  history > historicoComandos.txt
