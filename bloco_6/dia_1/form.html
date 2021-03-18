@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Currículo</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="" method="get">
+    <fieldset class="control">
+        <label class="label"  for="name">Nome: <input type="text" maxlength="40" required name="nome" id="name"></label>
+        <br>
+        <label class="label" for="email">E-mail: <input type="email" name="email" id="email" required> </label>
+        <br>
+        <label class="label" for="cpf">CPF: <input type="number" name="" id="" maxlength="11" required placeholder="digite apenas os 11 números"></label>
+        <br>
+        <label class="label" for="addres">Endereço:  <input type="text" maxlength="200" required name="Ender" id="addres"></label>
+        <br>
+        <label class="label" for="city">Cidade:  <input type="text" maxlength="28" required name="cidade" id="city"></label>
+        <br>
+        <label class="label" for="estado">Estado onde você mora:
+            <select class="select" name="estado" id="input-estado" required aria-placeholder="Selecione seu estado"></select>
+        </label>
+        <p>Escolha um tipo de moradia:</p>
+        <label class="label" for="casa"> <input type="radio" name="tipo" value="casa" required id="casa"> Casa</label>
+        <label class="label" for="apartamento"> <input type="radio" name="tipo" value="apartamento" required id="apartamento"> Apartamento</label>
+    </fieldset>
+    <fieldset class="control">
+        <label class="label" for="resume"> O que você fazia no seu último emprego: <textarea class="textarea" required name="resume" id="resume" cols="100" rows="10" maxlength="1000" placeholder="Descreva sua experiência aqui"></textarea></label>
+        <label class="label" for="cargo">Cargo: <input type="text" id="cargo" maxlength="40" required name="cargo"></label>
+        <label class="label" for="start">Início: <input type="date" required name="inicio" id="start"></label>
+    </fieldset>
+    <button class="button is-primary" type="submit">Enviar</button>
+  </form> 
+  <script src="script.js" id="enviar"></script>
+</body>
+</html>
