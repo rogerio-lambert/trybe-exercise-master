@@ -1,12 +1,17 @@
 label {
     margin: 10px 0px;
-    display: inline-block;
+    display: flex;
 }
 
 fieldset {
     border-radius: 30px;
     background-color:beige;
-    padding: 5px;
+    padding: 10px;
+
+}
+
+#name {
+    flex: 1 500px;
 }
 
 body {
